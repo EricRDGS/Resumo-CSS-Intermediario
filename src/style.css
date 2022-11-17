@@ -1,0 +1,97 @@
+:root{
+    --cor-de-fundo: #0D0D0D;
+    --cor-titulo: #034C8C;
+    --cor-subtitulo: #0468BF;
+    --cor-primaria: #0583F2;
+    --cor-secundaria: #5CC8F2;
+}
+
+@font-face {
+    font-family: 'font-anime';
+    src: url(font-anime.otf);
+    font-weight: 900;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+header{
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    text-align: center;
+    border: 3px solid var(--cor-titulo);
+}
+
+h1{
+    color: var(--cor-titulo);
+    font-family: 'font-anime';
+}
+
+h2{
+    color: var(--cor-subtitulo);
+    text-align: center;
+    font-family: 'font-anime';
+}
+
+main{
+    border: 2px solid var(--cor-titulo);
+    height: 920px;
+    padding-top: 10px;
+    background-image: url(https://images4.alphacoders.com/116/thumb-1920-1165712.jpg);
+    background-color: rgba(0, 0, 0,0.7);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+main h2{
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid var(--cor-subtitulo);
+}
+
+.secao-blue-lock{
+    border: 2px solid var(--cor-secundaria);
+    margin: 10px;
+    height: 360px;
+}
+
+.secao-blue-lock h3{
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.parte-da-sinopse{
+    text-align: justify;
+    margin: 20px;
+    color: var(--cor-primaria);
+} 
+
+.parte-da-sinopse p{
+    margin-top: 10px;
+    text-indent: 20px;
+    font-family: sono;
+}
+
+.imagem-blue-lock{
+    float: left;
+    margin: 20px 20px 0px 20px;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.teaser{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.teaser h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+iframe{
+    border: 2px solid var(--cor-secundaria);
+}
