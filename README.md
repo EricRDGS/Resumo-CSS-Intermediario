@@ -4,4 +4,4 @@ Também teve alguns itens que foi ensinado como, posicionamento com display, res
 
 <img src="resumo.gif" alt="Apresentação">
 
-<a href="https://ericrdgs.github.io/Resumo-CSS-Intermediario/" style="text-align: center;"> ==> Acessar Resumo <== </a>
+<a href="https://ericrdgs.github.io/Resumo-CSS-Intermediario/"> ==> Acessar Resumo <== </a>
